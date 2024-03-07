@@ -1,5 +1,5 @@
 {
-    "name": "addeus-development-environment",
+    "name": "@addeus/development-environment",
     "version": "1.0.3",
     "description": "",
     "engines": {
