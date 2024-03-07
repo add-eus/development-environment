@@ -1,0 +1,49 @@
+{
+    "extends": "./ts-function.json",
+    "tsCheckerConfig": {
+        "eslint": {
+            "enabled": true,
+            "files": "./**.{ts,tsx,js,cjs,jsx,vue}"
+        }
+    },
+    "compilerOptions": {
+        "lib": ["esnext", "dom", "dom.iterable", "scripthost", "WebWorker"],
+        "module": "esnext",
+        "sourceMap": false,
+        "strict": true,
+
+        "target": "esnext",
+        "baseUrl": ".",
+
+        "strictNullChecks": true,
+        "jsx": "preserve",
+
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+
+        "types": [
+            "vite",
+            "vite/client",
+            "vite-plugin-pwa/vue",
+            "vite-plugin-pwa/client",
+            "vite-plugin-pages/client",
+            "@intlify/unplugin-vue-i18n/messages"
+        ]
+    },
+    "include": [
+        "node_modules/addeus-common-library/**/*.ts",
+        "composable/**.ts",
+        "stores/**/*.ts",
+        "components/**/*.ts",
+        "components/**/*.vue",
+        "layouts/**/*.vue",
+        "linter/**/*.js",
+        "commitlint.config.cjs",
+        "vite.*.ts",
+        ".eslintrc.js",
+        "stylelint.config.js",
+        "index.ts",
+        "vite.config.cjs",
+        "default-styles.ts"
+    ]
+}

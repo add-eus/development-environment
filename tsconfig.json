@@ -1,0 +1,9 @@
+{
+    "extends": "./config/ts-web.json",
+    "include": [
+        "composable/**/*.ts",
+        "components/**/*.vue",
+        "stores/**/*.ts",
+        "utils/**/*.ts"
+    ]
+}
