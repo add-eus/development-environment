@@ -272,9 +272,9 @@ module.exports.define = function (config = {}) {
                     dirs: [
                         "components",
                         "directives",
-                        path.join(__dirname, "components"),
-                        path.join(__dirname, "layouts"),
-                        path.join(__dirname, "directives"),
+                        path.join(process.cwd(), "node_modules/addeus-common-library/components"),
+                        path.join(process.cwd(), "node_modules/addeus-common-library/layouts"),
+                        path.join(process.cwd(), "node_modules/addeus-common-library/directives"),
                     ],
                     extensions: ["vue", "ts"],
                     dts: "components.d.ts",
