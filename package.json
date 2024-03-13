@@ -6,9 +6,6 @@
         "node": ">=18.0.0",
         "npm": ">=7"
     },
-    "bin": {
-        "addeus-dev": "bin/addeus-dev.js"
-    },
     "gitHooks": {
         "pre-commit": "lint-staged",
         "commit-msg": "commitlint -e -V "

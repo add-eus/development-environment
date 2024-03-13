@@ -18,7 +18,6 @@
         "lib": ["esnext", "es2021"],
         "module": "commonjs",
         "moduleResolution": "node",
-        
         "outDir": "out",
         "sourceMap": true,
         "typeRoots": ["node_modules/@types"],
